@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4657B653115E9961004057E5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4657B651115E9961004057E5 /* GLUT.framework */; };
+		4657B654115E9961004057E5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4657B652115E9961004057E5 /* OpenGL.framework */; };
+		4657B662115E99AA004057E5 /* callbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657B65B115E99AA004057E5 /* callbacks.c */; };
+		4657B663115E99AA004057E5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657B65E115E99AA004057E5 /* main.c */; };
+		4657B664115E99AA004057E5 /* quaternion.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657B65F115E99AA004057E5 /* quaternion.c */; };
+		4657B665115E99AA004057E5 /* vivarium.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657B661115E99AA004057E5 /* vivarium.c */; };
+		4657B850115EBE71004057E5 /* predator.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657B84F115EBE71004057E5 /* predator.c */; };
+		4657BBE51160008B004057E5 /* prey.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657BBE41160008B004057E5 /* prey.c */; };
+		4657BFD111607249004057E5 /* grass.raw in Resources */ = {isa = PBXBuildFile; fileRef = 4657BFD011607249004057E5 /* grass.raw */; };
+		4657C1BB11608A7E004057E5 /* world.c in Sources */ = {isa = PBXBuildFile; fileRef = 4657C1BA11608A7E004057E5 /* world.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4657B647115E98DC004057E5 /* XCodeGlut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCodeGlut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4657B64A115E98DC004057E5 /* XCodeGlut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XCodeGlut-Info.plist"; sourceTree = "<group>"; };
+		4657B651115E9961004057E5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		4657B652115E9961004057E5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		4657B65B115E99AA004057E5 /* callbacks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = callbacks.c; sourceTree = "<group>"; };
+		4657B65C115E99AA004057E5 /* const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const.h; sourceTree = "<group>"; };
+		4657B65D115E99AA004057E5 /* funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funcs.h; sourceTree = "<group>"; };
+		4657B65E115E99AA004057E5 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4657B65F115E99AA004057E5 /* quaternion.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quaternion.c; sourceTree = "<group>"; };
+		4657B660115E99AA004057E5 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		4657B661115E99AA004057E5 /* vivarium.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vivarium.c; sourceTree = "<group>"; };
+		4657B84F115EBE71004057E5 /* predator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = predator.c; sourceTree = "<group>"; };
+		4657BBE41160008B004057E5 /* prey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = prey.c; sourceTree = "<group>"; };
+		4657BFD011607249004057E5 /* grass.raw */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = grass.raw; sourceTree = "<group>"; };
+		4657C1BA11608A7E004057E5 /* world.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = world.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4657B645115E98DC004057E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657B653115E9961004057E5 /* GLUT.framework in Frameworks */,
+				4657B654115E9961004057E5 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4657B634115E98B0004057E5 = {
+			isa = PBXGroup;
+			children = (
+				4657B65B115E99AA004057E5 /* callbacks.c */,
+				4657B65C115E99AA004057E5 /* const.h */,
+				4657B65D115E99AA004057E5 /* funcs.h */,
+				4657B65E115E99AA004057E5 /* main.c */,
+				4657B65F115E99AA004057E5 /* quaternion.c */,
+				4657B660115E99AA004057E5 /* types.h */,
+				4657BFD011607249004057E5 /* grass.raw */,
+				4657B661115E99AA004057E5 /* vivarium.c */,
+				4657C1BA11608A7E004057E5 /* world.c */,
+				4657B84F115EBE71004057E5 /* predator.c */,
+				4657BBE41160008B004057E5 /* prey.c */,
+				4657B651115E9961004057E5 /* GLUT.framework */,
+				4657B652115E9961004057E5 /* OpenGL.framework */,
+				4657B648115E98DC004057E5 /* Products */,
+				4657B64A115E98DC004057E5 /* XCodeGlut-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		4657B648115E98DC004057E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4657B647115E98DC004057E5 /* XCodeGlut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4657B646115E98DC004057E5 /* XCodeGlut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4657B64D115E98DD004057E5 /* Build configuration list for PBXNativeTarget "XCodeGlut" */;
+			buildPhases = (
+				4657B643115E98DC004057E5 /* Resources */,
+				4657B644115E98DC004057E5 /* Sources */,
+				4657B645115E98DC004057E5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCodeGlut;
+			productName = XCodeGlut;
+			productReference = 4657B647115E98DC004057E5 /* XCodeGlut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4657B636115E98B0004057E5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4657B639115E98B0004057E5 /* Build configuration list for PBXProject "Vivarium" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 4657B634115E98B0004057E5;
+			productRefGroup = 4657B648115E98DC004057E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4657B646115E98DC004057E5 /* XCodeGlut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4657B643115E98DC004057E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657BFD111607249004057E5 /* grass.raw in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4657B644115E98DC004057E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4657B662115E99AA004057E5 /* callbacks.c in Sources */,
+				4657B663115E99AA004057E5 /* main.c in Sources */,
+				4657B664115E99AA004057E5 /* quaternion.c in Sources */,
+				4657B665115E99AA004057E5 /* vivarium.c in Sources */,
+				4657B850115EBE71004057E5 /* predator.c in Sources */,
+				4657BBE51160008B004057E5 /* prey.c in Sources */,
+				4657C1BB11608A7E004057E5 /* world.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4657B637115E98B0004057E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+			};
+			name = Debug;
+		};
+		4657B638115E98B0004057E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		4657B64B115E98DD004057E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "XCodeGlut-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XCodeGlut;
+			};
+			name = Debug;
+		};
+		4657B64C115E98DD004057E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "XCodeGlut-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = XCodeGlut;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4657B639115E98B0004057E5 /* Build configuration list for PBXProject "Vivarium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4657B637115E98B0004057E5 /* Debug */,
+				4657B638115E98B0004057E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4657B64D115E98DD004057E5 /* Build configuration list for PBXNativeTarget "XCodeGlut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4657B64B115E98DD004057E5 /* Debug */,
+				4657B64C115E98DD004057E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4657B636115E98B0004057E5 /* Project object */;
+}
